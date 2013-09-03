@@ -12,6 +12,8 @@ var iNettuts = {
         widgetSelector: '.widget',
         handleSelector: '.widget-head',
         contentSelector: '.widget-content',
+        commentsHandleSelector: 'comments-head',
+        commentsSelector: '.comments-content',
         widgetDefault : {
             movable: true,
             removable: true,
@@ -126,7 +128,20 @@ var iNettuts = {
                 
             });
         });
-        
+
+        $('.comments-head').toggle(
+                function () {
+                    $(this).find('.collapse').addClass('upsidedown');
+                    $(this).parents(settings.contentSelector)
+                        .find(settings.commentsSelector).hide();
+                    return false;
+                },function () {
+                    $(this).find('.collapse').removeClass('upsidedown');
+                    $(this).parents(settings.contentSelector)
+                        .find(settings.commentsSelector).show();
+                    return false;
+                });
+
     },
     
     attachStylesheet : function (href) {

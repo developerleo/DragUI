@@ -80,6 +80,7 @@ a {color:white;}
     line-height: 1.2em;
     overflow: hidden;
 }
+
 #columns .widget .widget-content p {
     padding: 0.8em 0;
     border-bottom: 1px solid #666;
@@ -112,6 +113,26 @@ a {color:white;}
     display: inline;
     float: left;
     margin: 0 0 7px 7px;
+}
+#columns .widget .widget-content .comments-head{
+    color: #000;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#columns .widget .widget-content .comments-content{
+    padding: 0 5px;
+    color: #DDD;
+    -moz-border-radius-bottomleft: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    line-height: 1.2em;
+    overflow: hidden;
+}
+#columns .widget .widget-content .comments-content ul li{
+    background: #333 url(img/widget-content-bg.png) repeat-x;
 }
 /* End Columns section */
 

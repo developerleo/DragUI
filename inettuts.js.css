@@ -22,15 +22,6 @@
     outline: none;
 }
 
-.widget-content a.collapse  {
-    float: left;
-    background: url(img/buttons.gif) no-repeat -52px 0;
-    width: 14px;
-    height: 14px;
-    text-indent: -9999em;
-    outline: none;
-}
-
 .widget-head a.collapse  {
     float: left;
     display: inline;
@@ -40,6 +31,21 @@
     text-indent: -9999em;
     margin: 8px 0 8px 4px;
     outline: none;
+}
+
+.comments-head a.collapse  {
+    float: left;
+    display: inline;
+    background: url(img/buttons.gif) no-repeat -52px 0;
+    width: 14px;
+    height: 14px;
+    text-indent: -9999em;
+    margin: 8px 0 8px 4px;
+    outline: none;
+}
+
+.comments-head a.upsidedown  {
+    background-position: -38px 0px;
 }
 
 .widget-placeholder { border: 2px dashed #999;}
