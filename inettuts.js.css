@@ -23,12 +23,12 @@
 }
 
 .widget-content a.collapse  {
-    
+    float: left;
     background: url(img/buttons.gif) no-repeat -52px 0;
     width: 14px;
     height: 14px;
-    
-    
+    text-indent: -9999em;
+    outline: none;
 }
 
 .widget-head a.collapse  {
