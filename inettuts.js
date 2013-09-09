@@ -199,8 +199,29 @@ var iNettuts = {
                 $(settings.columns).sortable('enable');
             }
         });
-    }
-  
+    },
+
 };
+
+$("#create").click(function(){
+    var newIssueHtml=$("\
+        <li class=\"widget color-orange\">\
+                <div class=\"widget-head\" style=\"cursor: move;\">\
+                    <a href=\"#\" class=\"collapse\">COLLAPSE</a>\
+                    <h3></h3>\
+                </div>\
+                <div class=\"widget-content\">\
+                    <p></p>\
+                    <div class=\"comments-head\">\
+                            <a href=\"#\" class=\"collapse\">COLLAPSE</a>\
+                            <h3>&nbsp Comments</h3>\
+                    </div>\
+                    <div id=\"commentstag\" class=\"comments-content\">\
+                    </div>\
+                </div>\
+        </li>");
+    //alert("111");
+    $('#column1').append(newIssueHtml);
+});
 
 iNettuts.init();
