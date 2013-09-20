@@ -46,9 +46,19 @@ a {color:white;}
 		height: 400px;
 }
 
+#columns .column .alignright{
+    float: right;
+    width: 66.3%;
+        /* Min-height: */
+        min-height: 400px;
+        height: auto !important; 
+        height: 400px;
+}
+
 /* Column dividers (background-images) : */
 	#columns #column1 { background: url(img/column-bg-left.png) no-repeat right top; }
 	#columns #column3 { background: url(img/column-bg-right.png) no-repeat left top; }
+    #columns #column4 { background: url(img/column-bg-right.png) no-repeat left top; }
 	
 #columns #column1 .widget { margin: 30px 35px 0 25px; }
 #columns #column3 .widget { margin: 30px 25px 0 35px; }

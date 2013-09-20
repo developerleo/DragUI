@@ -220,7 +220,7 @@ $("#create").click(function(){
                     </div>\
                 </div>\
         </li>");
-    //alert("111");
+    
     $('#column1').append(newIssueHtml);
 });
 
