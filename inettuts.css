@@ -47,12 +47,13 @@ a {color:white;}
 }
 
 #columns .column .alignright{
-    float: right;
-    width: 66.3%;
+    position: right;
+    width: 33.3%;
         /* Min-height: */
         min-height: 400px;
         height: auto !important; 
         height: 400px;
+        
 }
 
 /* Column dividers (background-images) : */
@@ -62,6 +63,7 @@ a {color:white;}
 	
 #columns #column1 .widget { margin: 30px 35px 0 25px; }
 #columns #column3 .widget { margin: 30px 25px 0 35px; }
+#columns #column4 .widget { margin: 30px 35px 0 25px; }
 #columns .widget {
     margin: 30px 20px 0 20px;
     padding: 2px;

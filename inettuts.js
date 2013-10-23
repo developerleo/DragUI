@@ -224,4 +224,9 @@ $("#create").click(function(){
     $('#column1').append(newIssueHtml);
 });
 
+$("#createCmt").click(function(){
+    alert("create cmt called");
+    return;
+});
+
 iNettuts.init();
