@@ -5,8 +5,22 @@
         <title>iNettuts - Welcome!</title>
         
         <link href="inettuts.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="./bootstrap/Buttons/Buttons/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./bootstrap/Buttons/Buttons/css/buttons.css">
+        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/buttons.css">
+        
+
+
+        <!-- <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script> -->
+        <script type="text/javascript" src="javascripts/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>
+        <script type="text/javascript" src="inettuts.js"></script>
+        <script type="text/javascript" src="javascripts/bootstrap/js/bootstrap.js"></script>
+
+        <script type="text/javascript">
+        $(function(){
+          $("#models").load("widget-model.html"); 
+        });
+        </script>
 
 </head>
 <body>
@@ -36,7 +50,7 @@
                 </div>
             </li>
 
-            <li class="widget color-red">  
+            <li class="widget color-red" >  
                 <div class="widget-head">
                     <h3>issue1</h3>
                 </div>
@@ -53,7 +67,7 @@
                     </div>
                     
 
-                    <div id="commentstag" class="comments-content">
+                    <div id="commentstag_issue1" class="comments-content">
                         <ul>
                          <li>comment added by leo:
                             <p>this will be done very soon</p>
@@ -88,7 +102,7 @@
                             <h3>&nbsp Comments</h3>
                     </div>
 
-                    <div id="commentstag" class="comments-content">
+                    <div id="commentstag_issue2" class="comments-content">
                         <ul>
                          <li>comment added by leo:
                             <p>this will be done very soon</p>
@@ -161,9 +175,7 @@
         
     </div>
     
-    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
-    <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>
-    <script type="text/javascript" src="inettuts.js"></script>
+    <div id="models"></div>
 
 </body>
 </html>
