@@ -5,20 +5,21 @@
         <title>iNettuts - Welcome!</title>
         
         <link href="inettuts.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/font-awesome.min.css">
-        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/buttons.css">
+        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/buttons.css" />
+
+        <!--
+        <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script> 
+        -->
         
-
-
-        <!-- <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script> -->
-        <script type="text/javascript" src="javascripts/jquery-1.10.2.js"></script>
-        <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>
-        <script type="text/javascript" src="inettuts.js"></script>
-        <script type="text/javascript" src="javascripts/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script> 
+        <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>        
+        
 
         <script type="text/javascript">
         $(function(){
-          $("#models").load("widget-model.html"); 
+          $("#models").load("widget-model.html");
+          //$("body").append("widget-model.html");
         });
         </script>
 
@@ -60,7 +61,7 @@
 
                     <div class="comments-head">
                             
-                            <h3>&nbsp Comments
+                            <h3> Comments
                                 <a id="createCmt" href="javascript:void(0)"><img src="img/createbtn.png" style="border:0px"  /></a>
                             </h3> 
                             
@@ -73,10 +74,10 @@
                             <p>this will be done very soon</p>
                          </li>
                          <li>comment added by leo:
-                            <p>this will be done very soon<br>in a day or two</p>
+                            <p>this will be done very soon<br></br>in a day or two</p>
                          </li>
                          <li>comment added by weiyufeng:
-                            <p>yes it will be ok soon<br> and the bug will be fixed</p>
+                            <p>yes it will be ok soon<br> </br>and the bug will be fixed</p>
                          </li>
                         </ul>
                     </div>
@@ -99,7 +100,7 @@
 
 
                     <div class="comments-head">
-                            <h3>&nbsp Comments</h3>
+                            <h3> Comments</h3>
                     </div>
 
                     <div id="commentstag_issue2" class="comments-content">
@@ -108,10 +109,10 @@
                             <p>this will be done very soon</p>
                          </li>
                          <li>comment added by leo:
-                            <p>this will be done very soon<br>in a day or two</p>
+                            <p>this will be done very soon<br></br>in a day or two</p>
                          </li>
                          <li>comment added by weiyufeng:
-                            <p>yes it will be ok soon<br> and the bug will be fixed</p>
+                            <p>yes it will be ok soon<br></br> and the bug will be fixed</p>
                          </li>
                         </ul>
                     </div>
@@ -176,6 +177,7 @@
     </div>
     
     <div id="models"></div>
-
+    
+    <script type="text/javascript" src="inettuts.js"></script>
 </body>
 </html>

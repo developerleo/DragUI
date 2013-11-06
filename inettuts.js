@@ -1,7 +1,4 @@
-/*
- * Script from NETTUTS.com [by James Padolsey]
- * @requires jQuery($), jQuery UI & sortable/draggable UI modules
- */
+
 
 var iNettuts = {
     
