@@ -1,25 +1,49 @@
-
-<div class="modal hide fade" id="LOModal_">
-    <div class="modal-header">
-        <button type="button" class="close" hidden="true">times;</button>
-        <h3>Create Issue</h3>
-    </div>
-    <div class="modal-body">
-        <div style="width: height: 500px;">
-            <table id="optinoGrid_"></table>
-            <div id="optionPickerPager_"></div>
+<div>
+    <div class="modal hide fade" id="LOModal_">
+        <div class="modal-header">
+            <button type="button" class="close" hidden="true">times;</button>
+            <h3>Create Issue</h3>
+        </div>
+        <div class="modal-body">
+            <div style="width: height: 500px;">
+                <table id="optinoGrid_"></table>
+                <div id="optionPickerPager_"></div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="btn-group">
+                <a  class="btn btn-primary" id="OK_" data-dismiss="modal" aria-hidden="true" onclick="_saveSelection();" >OK</a>
+                <a  class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+            </div>
         </div>
     </div>
-    <div class="modal-footer">
-        <div class="btn-group">
-            <a  class="btn btn-primary" id="OK_" data-dismiss="modal" aria-hidden="true" onclick="_saveSelection();" >OK</a>
-            <a  class="btn" data-dismiss="modal" aria-hidden="true">Close</a>
+
+    <div id="widget_model" style="display:none">
+        <li class="widget color-blue">  
+        <div class="widget-head">
+            <h3 id="widget_name">issue1</h3>
         </div>
+        <div class="widget-content">
+            <p id="widget_desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa. Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor. Suspendisse pede odio, accumsan vitae, auctor non, suscipit at, ipsum. Cras varius sapien vel lectus.</p>
+
+
+            <div class="comments-head">
+                    <h3>Comments</h3>
+            </div>
+
+            <div id="commentstag_" class="comments-content">
+                <ul>
+                <li style="display:none" id="">
+                    <p></p>
+                </li>
+                 <li>comment added by leo:
+                    <p>this will be done very soon</p>
+                 </li>
+                 
+                </ul>
+            </div>
+        </div>
+    </li>
     </div>
 </div>
-
-<div id="333">
-
-</div>
-
 
