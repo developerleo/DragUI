@@ -2,7 +2,7 @@
 body,img,p,h1,h2,h3,h4,h5,h6,ul,ol {margin:0; padding:0; list-style:none; border:none;}
 /* End Reset */
 
-body {font-size:0.8em; font-family:Arial,Verdana,Sans-Serif; background: #000;}
+body {font-size:0.8em; font-family:Arial,Verdana,Sans-Serif; background: #FCFCFC;}
 a {color:white;}
 
 /* Colors */
@@ -24,14 +24,14 @@ a {color:white;}
 
 /* Head section */
 #head {
-    background: #000 url(img/head-bg.png) repeat-x;
+/*    background: #000 url(img/head-bg.png) repeat-x;*/
     height: 100px;
 }
 #head h1 {
     line-height: 100px;
-    color: #FFF;
+    color: #222222;
     text-align: center;
-    background: url(img/inettuts.png) no-repeat center;
+/*    background: url(img/inettuts.png) no-repeat center;*/
     text-indent: -9999em
 }
 /* End Head Section */
@@ -57,9 +57,9 @@ a {color:white;}
 }
 
 /* Column dividers (background-images) : */
-	#columns #column1 { background: url(img/column-bg-left.png) no-repeat right top; }
-	#columns #column3 { background: url(img/column-bg-right.png) no-repeat left top; }
-    #columns #column4 { background: url(img/column-bg-right.png) no-repeat left top; }
+	#columns #column1 { /*background: url(img/column-bg-left.png) no-repeat right top;*/ }
+	#columns #column3 { /*background: url(img/column-bg-right.png) no-repeat left top;*/ }
+    #columns #column4 { /*background: url(img/column-bg-right.png) no-repeat left top;*/ }
 	
 #columns #column1 .widget { margin: 30px 35px 0 25px; }
 #columns #column3 .widget { margin: 30px 25px 0 35px; }
