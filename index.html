@@ -7,7 +7,7 @@
         <link href="inettuts.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/font-awesome.min.css" />
         <link rel="stylesheet" href="bootstrap/Buttons/Buttons/css/buttons.css" />
-
+        <link rel="stylesheet" type="text/css" href="packaged/css/semantic.css">
         <!--
         <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script> 
         -->
@@ -28,14 +28,14 @@
     
 
 
-    <div id="head">
-        <h1>iNettuts</h1>
+    <div id="head" class="ui inverted page grid masthead segment">
+        <div class="ui transition information visible">
+            <h1 class="ui inverted header">Project Name</h1>
+        </div>
     </div>
-    <div id="menubar" align="right">
-        <a id="create" href="#" class="button button-pill button-flat-primary">Create issue</a>
-    </div>
+    
 
-    <div id="columns">
+    <div id="columns" class="ui inverted page grid stackable relaxed feature segment">
             
         <ul id="column1" class="column">
             <div style="color:#E0D8E0" align="center">
@@ -176,7 +176,10 @@
         
     </div>
     
-    <div id="models"></div>
+    <div class="ui inverted teal page grid segment">
+    </div>
+
+    <div id="models" style="display:none"></div>
     
     <script type="text/javascript" src="inettuts.js"></script>
 </body>
