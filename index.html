@@ -7,12 +7,22 @@
         <link href="inettuts.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="semantic/packaged/css/semantic.css">
         <link rel="stylesheet" type="text/css" href="semantic/uncompressed/views/feed.css">
-        <!--
-        <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script> 
-        -->
         
-        <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script> 
-        <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>        
+        <!--
+        <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script> -->
+        
+        
+        <!-- --> 
+        <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
+        <script type="text/javascript" src="jquery-ui-personalized-1.6rc2.min.js"></script>
+        <script type="text/javascript" src="semantic/packaged/javascript/semantic.js"></script>
+
+        <script src="feed.js"></script>
+
+
         
 
         <script type="text/javascript">
@@ -23,8 +33,37 @@
         </script>
 
 </head>
-<body>
-    
+<body class="">
+    <div class="ui large inverted vertical sidebar menu">
+        <a class="active item">
+          Dogs Weekly <span class="ui label">213</span>
+        </a>
+        <a class="item">
+          Joystiq <span class="ui label">113</span>
+        </a>
+        <div class="item">
+          <b>Archived Feeds</b>
+          <div class="menu">
+            <a class="item">
+              Engadget <span class="ui label">11</span>
+            </a>
+            <a class="item">
+              NY Times Tech Blog <span class="ui label">21</span>
+            </a>
+          </div>
+        </div>
+        <a class="item">
+          <i class="bookmark icon"></i> Favorites
+        </a>
+        <div class="ui dropdown item">
+          <i class="add icon"></i> New
+          <div class="menu">
+            <a class="item"><i class="rss icon"></i> Feed</a>
+            <a class="item"><i class="tag icon"></i> Tag</a>
+            <a class="item"><i class="folder icon"></i> Group</a>
+          </div>
+        </div>
+    </div>
 
 
     <div class="ui inverted page grid masthead segment">
