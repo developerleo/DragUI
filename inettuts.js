@@ -1,8 +1,8 @@
 
-
+var jq126 = jQuery.noConflict();
 var iNettuts = {
     
-    jQuery : $,
+    jQuery : jq126,
     
     settings : {
         columns : '.column',
