@@ -1,11 +1,12 @@
 
 var jq126 = jQuery.noConflict();
+var initialized = false;
 var iNettuts = {
     
     jQuery : jq126,
     
     settings : {
-        columns : '.column',
+        columns : '.column_entity',
         widgetSelector: '.widget',
         handleSelector: '.widget-head',
         contentSelector: '.widget-content',
@@ -29,9 +30,10 @@ var iNettuts = {
     },
 
     init : function () {
-        this.attachStylesheet('inettuts.js.css');
-        this.addWidgetControls();
-        this.makeSortable();
+            this.attachStylesheet('inettuts.js.css');
+            this.addWidgetControls();
+            this.makeSortable();
+            initialized = true;
     },
     
     getWidgetSettings : function (id) {

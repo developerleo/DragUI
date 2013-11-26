@@ -37,16 +37,16 @@ a {color:white;}
 /* End Head Section */
 
 /* Columns section */
-#columns .column {
+#columns .column_entity {
     float: left;
-    /*width: 33.3%; */
+    width: 25%; 
 		/* Min-height: */
 		min-height: 400px;
 		height: auto !important; 
 		height: 400px;
 }
 
-#columns .column .alignright{
+#columns .column_entity .alignright{
     position: right;
     width: 33.3%;
         /* Min-height: */
@@ -241,7 +241,7 @@ p a {
   box-shadow: 0 -20px 10px 0 rgba(0, 0, 0, 0.1) inset !important;
 }
 
-.masthead.segment .column {
+.masthead.segment .column_entity {
   position: relative;
 }
 
@@ -329,11 +329,11 @@ p a {
     min-height: 0px;
   }
 
-  .masthead.segment .column {
+  .masthead.segment .column_entity {
     font-size: 0.7rem;
   }
 
-  .masthead.segment .column p {
+  .masthead.segment .column_entity p {
     display: none;
   }
 
