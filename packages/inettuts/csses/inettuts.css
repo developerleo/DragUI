@@ -82,7 +82,7 @@ a {color:white;}
     float: left;
 }
 #columns .widget .widget-content {
-    background: #333 url(../img/widget-content-bg.png) repeat-x;
+    background: #333 url(../../../img/widget-content-bg.png) repeat-x;
     padding: 0 5px;
     color: #DDD;
     -moz-border-radius-bottomleft: 2px;
@@ -144,7 +144,7 @@ a {color:white;}
     overflow: hidden;
 }
 #columns .widget .widget-content .comments-content ul li{
-    background: #333 url(../img/widget-content-bg.png) repeat-x;
+    background: #333 url(../../../img/widget-content-bg.png) repeat-x;
 }
 /* End Columns section */
 
@@ -231,7 +231,7 @@ p a {
 }
 
 .masthead.segment {
-  background-image: url(../img/bg.jpg);
+  background-image: url(../../../img/bg.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   margin: 0em;

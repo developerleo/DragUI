@@ -30,7 +30,7 @@ var iNettuts = {
     },
 
     init : function () {
-            this.attachStylesheet('css/inettuts.js.css');
+            this.attachStylesheet('packages/inettuts/csses/inettuts.js.css');
             this.addWidgetControls();
             this.makeSortable();
             initialized = true;
